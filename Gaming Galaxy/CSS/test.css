@@ -1,0 +1,103 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+/* Header Styles */
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #f8f8f8;
+}
+
+header h1 {
+    font-size: 2.5em;
+    color: #333;
+}
+
+header p {
+    font-size: 1.2em;
+    color: #555;
+}
+
+.main-image {
+    width: 100%;
+    height: auto;
+}
+
+/* Sub-section Styles */
+.sub-section {
+    padding: 20px;
+    margin: 20px 0;
+}
+
+.sub-section h2 {
+    font-size: 2em;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.sub-image {
+    width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+.sub-section p {
+    font-size: 1.1em;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+/* List Section Styles */
+.list-section {
+    padding: 20px;
+    margin: 20px 0;
+    background-color: #f9f9f9;
+}
+
+.list-section h3 {
+    font-size: 1.8em;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+ol {
+    padding-left: 20px;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2em;
+    }
+
+    header p {
+        font-size: 1em;
+    }
+
+    .sub-section h2 {
+        font-size: 1.8em;
+    }
+
+    .sub-section p {
+        font-size: 1em;
+    }
+
+    .main-image, .sub-image {
+        width: 100%;
+    }
+}
